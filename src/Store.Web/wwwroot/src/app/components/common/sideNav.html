@@ -1,0 +1,14 @@
+﻿<div>
+    <nav class="navbar">
+        <div class="m-b">
+             <b> Popular Genres </b>  
+        </div>
+        <div class="clearfix">
+            <ul class="row nav m-l">
+                <li class="nav-item" template="ngFor let genre of genres; let i = index">                    
+                   <div class="col-sm-12"><a href="[/genres/{{genre_id}}]"> {{genre.genre_title}} </a> </div>
+                </li>
+            </ul>   
+        </div>
+    </nav>
+</div>

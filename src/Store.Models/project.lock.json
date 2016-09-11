@@ -1,0 +1,87 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "MongoDB.Bson/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.2.4",
+          "MongoDB.Driver.Core": "2.2.4"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.2.4"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MongoDB.Bson/2.2.4": {
+      "sha512": "Q3TLxEVx5MsoXgqHqUFAh15kGJmgv1pvgXtm4/d9E22Ee8X9jVoPC8zIgIuQddO771Zbn9chJE+5QLfgxZl25Q==",
+      "type": "package",
+      "path": "MongoDB.Bson/2.2.4",
+      "files": [
+        "License.rtf",
+        "MongoDB.Bson.2.2.4.nupkg.sha512",
+        "MongoDB.Bson.nuspec",
+        "lib/net45/MongoDB.Bson.XML",
+        "lib/net45/MongoDB.Bson.dll"
+      ]
+    },
+    "MongoDB.Driver/2.2.4": {
+      "sha512": "iWvQlPMSeA8oe7LqfgqZ0txY8+/Ns6qD/efR3tcMT4DgYT4W1vJZ4A8dfegeIZV3kKIiFA+L4ALgww5nfJtcBg==",
+      "type": "package",
+      "path": "MongoDB.Driver/2.2.4",
+      "files": [
+        "License.rtf",
+        "MongoDB.Driver.2.2.4.nupkg.sha512",
+        "MongoDB.Driver.nuspec",
+        "lib/net45/MongoDB.Driver.XML",
+        "lib/net45/MongoDB.Driver.dll"
+      ]
+    },
+    "MongoDB.Driver.Core/2.2.4": {
+      "sha512": "gdqzKYas7RMBXt36N8UWTriVitRbX+8Y57yxdNDn6DzXe7aS1tcBofAtBO8FxOtmkGY3fD9CQUbqLLNDuAfjRQ==",
+      "type": "package",
+      "path": "MongoDB.Driver.Core/2.2.4",
+      "files": [
+        "License.rtf",
+        "MongoDB.Driver.Core.2.2.4.nupkg.sha512",
+        "MongoDB.Driver.Core.nuspec",
+        "lib/net45/MongoDB.Driver.Core.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "MongoDB.Driver >= 2.2.4"
+    ],
+    "DNX,Version=v4.5.1": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

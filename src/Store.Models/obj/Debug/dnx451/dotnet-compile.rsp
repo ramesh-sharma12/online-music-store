@@ -1,0 +1,31 @@
+--temp-output:E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\obj\Debug\dnx451\
+--out:E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\bin\Debug\dnx451\Store.Models.dll
+--define:DEBUG
+--define:TRACE
+--define:DNX451
+--suppress-warning:CS1701
+--suppress-warning:CS1702
+--suppress-warning:CS1705
+--optimize:False
+--output-name:Store.Models
+--file-version:1.0.0.0
+--version:1.0.0.0
+--informational-version:1.0.0
+--target-framework:.NETFramework,Version=v4.5.1
+--reference:C:\Users\Ramesh\.nuget\packages\MongoDB.Bson\2.2.4\lib\net45\MongoDB.Bson.dll
+--reference:C:\Users\Ramesh\.nuget\packages\MongoDB.Driver\2.2.4\lib\net45\MongoDB.Driver.dll
+--reference:C:\Users\Ramesh\.nuget\packages\MongoDB.Driver.Core\2.2.4\lib\net45\MongoDB.Driver.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Microsoft.CSharp.dll
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Album.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Artist.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\BaseEntity.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Curator.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Genre.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\MyFavourite.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\PlayList.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Track.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\User.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Models\Properties\AssemblyInfo.cs

@@ -1,0 +1,21 @@
+<div class="col-sm-12 header-title">
+    <h3>{{album.title}}</h3>
+</div>
+<div class="container">
+   <div class="row">
+        <div class="col-sm-4">
+           <img src="{{album.poster}}" />
+        </div>       
+        <div class="col-sm-8">
+            <div class="col-sm-6"><label> Release Year:&nbsp;  </label>{{album.year}}</div>
+            <div class="col-sm-6"><label> Countries:&nbsp;  </label>{{album.countries}}</div>               
+            <div class="col-sm-6"><label> Genres:&nbsp;  </label>{{album.genres}}</div>           
+            <div class="col-sm-12"><label> Rating:&nbsp; </label>{{album.imdb.rating}} of total vote ({{movie.imdb.votes}}) </div>
+            <div class="col-sm-12"><label> Directed By:&nbsp;  </label>{{album.director}}</div> 
+            <div class="col-sm-12"><label> Writen By:&nbsp;  </label>{{album.writers}}</div>        
+        </div>
+   </div>    
+   <div class="col-sm-12 pad-10">
+       <label> Story: &nbsp; </label>{{album.plot}}     
+    </div>
+</div>

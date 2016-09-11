@@ -1,0 +1,34 @@
+﻿<section>   
+    <h3 class="pad-10">NEW RELEASES</h3>
+    <div class="col-sm-12">
+        <ul id="song-list" class="form list list-unstyled">
+            <li class="row" template="ngFor let song of songs; let i = index">
+                <div class="col-sm-12">
+                    <div class="col-sm-11">
+                         <div class="col-sm-3"> <img class="poster" src="{{song.poster}}" /> </div>
+                        <div class="title"> <a routerLink="/songs/{{song.id}}">{{song.title}} </a>   </div>
+                        <div class="desc"> {{song.year}}   </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h3 class="pad-10">TRENDING SONGS</h3>
+    <div class="col-sm-12">
+        <ul id="song-list" class="form list list-unstyled">
+            <li class="row" template="ngFor let song of songs; let i = index">
+                <div class="col-sm-12">
+                    <div class="col-sm-11">
+                        <div class="col-sm-3"> <img class="poster" src="{{song.poster}}" /> </div>
+                        <div class="title"> <a routerLink="/songs/{{song.id}}">{{song.title}} </a>   </div>
+                        <div class="desc"> {{song.year}}   </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+

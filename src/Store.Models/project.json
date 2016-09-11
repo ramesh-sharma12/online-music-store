@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+
+  "dependencies": {
+    "MongoDB.Driver": "2.2.4"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  }
+}

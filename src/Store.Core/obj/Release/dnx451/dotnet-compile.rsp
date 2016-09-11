@@ -1,0 +1,20 @@
+--temp-output:E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Core\obj\Release\dnx451\
+--out:E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Core\bin\Release\dnx451\Store.Core.dll
+--define:RELEASE
+--define:TRACE
+--define:DNX451
+--suppress-warning:CS1701
+--suppress-warning:CS1702
+--suppress-warning:CS1705
+--optimize:True
+--output-name:Store.Core
+--file-version:1.0.0.0
+--version:1.0.0.0
+--informational-version:1.0.0
+--target-framework:.NETFramework,Version=v4.5.1
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Microsoft.CSharp.dll
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Core\Class1.cs
+E:\Workspace\TFS\MusicStore\Dev\WebApp\src\Store.Core\Properties\AssemblyInfo.cs

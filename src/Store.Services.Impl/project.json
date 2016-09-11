@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+
+  "dependencies": {
+    "Store.Core": "1.0.0",
+    "Store.Services": "1.0.0"
+    //"NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    //"netstandard1.6": {
+    //  "imports": "dnxcore50"
+    //}
+    "dnx451": {}
+  }
+}

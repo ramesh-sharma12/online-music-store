@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+
+  "dependencies": {
+    "Store.Core": "1.0.0",
+    "Store.Models": "1.0.0"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  }
+}

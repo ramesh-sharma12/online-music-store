@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED62C534-4CE7-436D-9AF4-3993D7542B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA3533B2-3C54-400A-B4A3-647FE3B3270E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Store.Web", "src\Store.Web\Store.Web.xproj", "{84CA4AD4-A735-4F1D-B788-89B70CFC893B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3D85518-B9B5-438A-950F-33B7105BD431} = {D3D85518-B9B5-438A-950F-33B7105BD431}
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406} = {69C5281A-CC77-4CAD-AF5E-6949BE5A1406}
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE} = {934ED954-1C40-4B24-A85A-C2308E3B6FFE}
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C} = {626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Store.Models", "src\Store.Models\Store.Models.xproj", "{934ED954-1C40-4B24-A85A-C2308E3B6FFE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Store.Services", "src\Store.Services\Store.Services.xproj", "{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3D85518-B9B5-438A-950F-33B7105BD431} = {D3D85518-B9B5-438A-950F-33B7105BD431}
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE} = {934ED954-1C40-4B24-A85A-C2308E3B6FFE}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Store.Services.Impl", "src\Store.Services.Impl\Store.Services.Impl.xproj", "{69C5281A-CC77-4CAD-AF5E-6949BE5A1406}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3D85518-B9B5-438A-950F-33B7105BD431} = {D3D85518-B9B5-438A-950F-33B7105BD431}
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE} = {934ED954-1C40-4B24-A85A-C2308E3B6FFE}
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C} = {626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Store.Core", "src\Store.Core\Store.Core.xproj", "{D3D85518-B9B5-438A-950F-33B7105BD431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CA4AD4-A735-4F1D-B788-89B70CFC893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CA4AD4-A735-4F1D-B788-89B70CFC893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CA4AD4-A735-4F1D-B788-89B70CFC893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CA4AD4-A735-4F1D-B788-89B70CFC893B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D85518-B9B5-438A-950F-33B7105BD431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D85518-B9B5-438A-950F-33B7105BD431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D85518-B9B5-438A-950F-33B7105BD431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D85518-B9B5-438A-950F-33B7105BD431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84CA4AD4-A735-4F1D-B788-89B70CFC893B} = {ED62C534-4CE7-436D-9AF4-3993D7542B13}
+		{934ED954-1C40-4B24-A85A-C2308E3B6FFE} = {ED62C534-4CE7-436D-9AF4-3993D7542B13}
+		{626C01DE-CDFF-49F7-BB64-D1D3773BCE2C} = {ED62C534-4CE7-436D-9AF4-3993D7542B13}
+		{69C5281A-CC77-4CAD-AF5E-6949BE5A1406} = {ED62C534-4CE7-436D-9AF4-3993D7542B13}
+		{D3D85518-B9B5-438A-950F-33B7105BD431} = {ED62C534-4CE7-436D-9AF4-3993D7542B13}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rameshsharma12.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Store.Web\\Store.Web.xproj
+		SccProjectTopLevelParentUniqueName1 = WebApp.sln
+		SccProjectName1 = src/Store.Web
+		SccLocalPath1 = src\\Store.Web
+		SccProjectUniqueName2 = src\\Store.Models\\Store.Models.xproj
+		SccProjectTopLevelParentUniqueName2 = WebApp.sln
+		SccProjectName2 = src/Store.Models
+		SccLocalPath2 = src\\Store.Models
+		SccProjectUniqueName3 = src\\Store.Services\\Store.Services.xproj
+		SccProjectTopLevelParentUniqueName3 = WebApp.sln
+		SccProjectName3 = src/Store.Services
+		SccLocalPath3 = src\\Store.Services
+		SccProjectUniqueName4 = src\\Store.Services.Impl\\Store.Services.Impl.xproj
+		SccProjectTopLevelParentUniqueName4 = WebApp.sln
+		SccProjectName4 = src/Store.Services.Impl
+		SccLocalPath4 = src\\Store.Services.Impl
+		SccProjectUniqueName5 = src\\Store.Core\\Store.Core.xproj
+		SccProjectTopLevelParentUniqueName5 = WebApp.sln
+		SccProjectName5 = src/Store.Core
+		SccLocalPath5 = src\\Store.Core
+	EndGlobalSection
+EndGlobal

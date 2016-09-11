@@ -7,14 +7,19 @@
 
     .header {
         top: 0px;
-        height: 80px;       
+        height: 60px;       
         background-color: @baseColor;        
         z-index: 10000;
         position: fixed;
+
+        .search-container{
+            margin: 5px 25%;
+            text-align: center;
+        }
     }
 
     .side-nav{
-
+        margin-top: 60px;   
     }
 
     .content {
@@ -29,7 +34,13 @@
             text-align: center;
             color: #fff;
             font-size: 20px;
-            background-color: #a06e03;
+            background-color: #235aad;
+        }
+
+        .content-summary{
+            background-color: #fff;
+            height:50px;
+            font-weight: bold;
         }
 
         .content-footer {
@@ -37,7 +48,7 @@
         }
 
         .title {
-            text-transform: uppercase;
+            
         }
 
         .list {
@@ -112,12 +123,12 @@
     }
 
     .footer {
-        background-color: #a06e03;
+        background-color: #235aad;
         width: 40px;
         color: #fff;
         font-weight: bold;
-        bottom: 0px;
-        width: 78%;
-        position: absolute;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
     }
 }

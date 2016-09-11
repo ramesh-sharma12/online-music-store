@@ -1,4 +1,12 @@
 ﻿<section class="row" *ngIf="songs.length"> 
+    <div class="p-a m-a content-summary">
+        <div class="pull-left">
+            Total Songs - {{summary.total}}
+        </div>
+        <div class="pull-right">
+            Showing 1 of {{summary.total_pages}} Pages
+        </div>
+    </div>
     <ul id="song-list" class="row list list-unstyled">
         <li class="col-sm-3 m-y" template="ngFor let song of songs; let i = index">
                 <div class="row"> 

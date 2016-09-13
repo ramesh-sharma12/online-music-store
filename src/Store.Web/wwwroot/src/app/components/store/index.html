@@ -1,5 +1,5 @@
-﻿<section class="row" *ngIf="songs.length"> 
-    <div class="p-a m-a content-summary">
+﻿<section class="row content-body" *ngIf="songs.length"> 
+    <div class="m-x p-x content-summary">
         <div class="pull-left">
             Total Songs - {{summary.total}}
         </div>
@@ -10,7 +10,12 @@
     <ul id="song-list" class="row list list-unstyled">
         <li class="col-sm-3 m-y" template="ngFor let song of songs; let i = index">
                 <div class="row"> 
-                    <img class="poster" src="{{song.track_image_file}}" /> 
+                     <img class="poster" src="{{song.track_image_file}}" (click)="playAudio(song.track_file)" />
+                     <!--<audio controls id="{{item.id}}">
+                        <source src="{{song.track_image_file}}">
+                            
+                        </source>                        
+                    </audio>     -->                   
                 </div>
                 <div class="row">                    
                      <div class="title"> 

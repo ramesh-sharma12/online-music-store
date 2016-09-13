@@ -29,13 +29,13 @@ namespace Store.Web.Controllers
 
         // GET: api/values
         [HttpGet]
-        public List<Track> Get()
+        public TrackDataSet Get()
         {
             _logger.LogDebug("Listing all items");
 
             var songs = _emaService.GetSongs();
 
-            return songs.dataset;
+            return songs;
         }        
 
         // GET api/values/5

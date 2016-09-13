@@ -47,6 +47,12 @@ export class SongIndex implements OnInit//extends Base
         window.location.href = '/movies/detail/' + id;
     }
 
+    playAudio(src : string){       
+        var audio = new Audio("http://freemusicarchive.org/" + src);  
+        audio.load();     
+        audio.play();
+    }
+
     onSubmit() {
         var self = this;
 

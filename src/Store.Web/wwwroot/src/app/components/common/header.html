@@ -1,6 +1,15 @@
-﻿<div class="search-container">
-    <div class=" form-group col-sm-10 pull-left ">
+﻿<div class="col-sm-2" >
+    <a href='/home' class="m-t">
+          <i class="fa fa-home fa-lg">&nbsp;</i>    
+     </a>
+</div>
+<div class="col-sm-7 search-container pull-right">
+    <div class=" form-group col-sm-8 pull-left ">
          <input type="text" class="form-control" placeholder="Enter title , year to search songs" />        
     </div>
      <button class="btn btn-success pull-left" (click)="performSearch();"> Search</button>
+</div>
+<div class="col-sm-1 login-panel">
+    <a href="/login">Login </a>
+    <a href="/register"> Register</a>
 </div>

@@ -10,12 +10,7 @@
     <ul id="song-list" class="row list list-unstyled">
         <li class="col-sm-3 m-y" template="ngFor let song of songs; let i = index">
                 <div class="row"> 
-                     <img class="poster" src="{{song.track_image_file}}" (click)="playAudio(song.track_file)" />
-                     <!--<audio controls id="{{item.id}}">
-                        <source src="{{song.track_image_file}}">
-                            
-                        </source>                        
-                    </audio>     -->                   
+                     <img class="poster" src="{{song.track_image_file}}" (click)="playAudio(song.track_file)" />                                   
                 </div>
                 <div class="row">                    
                      <div class="title"> 
